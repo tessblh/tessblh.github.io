@@ -15,10 +15,10 @@
 
   <main>
   <p>Explorez les différentes pages :</p>
-  <ul>
-    <li><a href="formations.html">Formations</a></li>
-    ...
-  </ul>
+ <a class="button-link" href="formations.html">Formations</a>
+<a class="button-link" href="etablissements.html">Établissements</a>
+<a class="button-link" href="inscription.html">Inscription</a>
+
 </main>
 
 </body>
@@ -43,5 +43,23 @@
     }
   </style>
 </head>
+header {
+  background-image: url('https://...jpg'); /* Lien vers l'image de fond */
+  height: 250px; /* Hauteur de l'en-tête */
+}
+.button-link {
+  background-color: #0e5a60; /* Couleur de fond des boutons */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement à l'intérieur du bouton */
+  border-radius: 5px; /* Coins arrondis */
+  text-decoration: none; /* Retirer le soulignement */
+  display: inline-block; /* Disposition en ligne */
+  margin: 10px; /* Espacement entre les boutons */
+}
+
+.button-link:hover {
+  background-color: #007b8a; /* Couleur de fond au survol */
+}
+
 
 
